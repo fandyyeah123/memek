@@ -27,11 +27,16 @@
 			ev.preventDefault();
 			windowScroll();
 		})	  	 
-		
 	}); 	 
     
 })(jQuery);
- 
+
+function handleChangeImage(val) {
+    const div = document.getElementsByClassName('image-review');
+    const img = document.createElement('img');
+    img.src = 'assets/images/items/'+val;
+    div[0].prepend(img)
+}
 
 $('.owl-two').owlCarousel({
     loop:true,

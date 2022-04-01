@@ -17,10 +17,11 @@
     <meta name="twitter:description" content="A group of spiny mammals who love trading perpetuals. Minting begins February 1st at 15:00 UTC.">
     <meta name="twitter:image" content="/_app/assets/hedgies-ce33e1d5.png">
     <link rel="stylesheet" href="assets/css/fonts.css">
-   <link rel="stylesheet" href="assets/css/portal.css">
+    <link rel="stylesheet" href="assets/css/portal.css">
     <link rel="stylesheet" href="assets/css/nft.css">
     <link rel="stylesheet" href="assets/css/modal.css">
-        <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/home.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/index.css">
     <link rel="stylesheet" href="assets/css/media.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
@@ -29,10 +30,10 @@
        <link rel="stylesheet" href="assets/awesome/css/all.min.css">
 
 
-     <script src="assets/s/owl.carousel.js"></script>
+    <script src="assets/s/jquery-1.12.4.min.js"></script>
+    <script src="assets/s/owl.carousel.js"></script>
     <!--  Custom js   -->
     <script src="assets/s/script.js"></script>
-    <script src="assets/s/jquery-1.12.4.min.js"></script>
     
  
     <style></style>
@@ -63,15 +64,15 @@
                 <a sveltekit:prefetch="true" href="#" class="row svelte-rbkwku">Home </a>
               </li>
               <li class="svelte-rbkwku">
-                <a sveltekit:prefetch="true" href="#" class="row svelte-rbkwku">Roadmap<!-- <span class="tag svelte-rbkwku">Ended</span> -->
+                <a sveltekit:prefetch="true" href="#roadmap" class="row svelte-rbkwku">Roadmap<!-- <span class="tag svelte-rbkwku">Ended</span> -->
                 </a>
               </li>
               <li class="svelte-rbkwku">
-                <a href="#" class="row svelte-rbkwku" target="_blank">Tokenomics
+                <a href="#tokenomics" class="row svelte-rbkwku">Tokenomics
                 </a>
               </li>
                <li class="svelte-rbkwku">
-                <a href="#" class="row svelte-rbkwku" target="_blank">Team
+                <a href="#team" class="row svelte-rbkwku">Team
                 </a>
               </li>
                <li class="svelte-rbkwku">
@@ -99,7 +100,7 @@
       </header>
        <div class="stack svelte-1c5s86x">
         <main class="svelte-1ykiyx9">
-          <section id="top" class="full svelte-1ykiyx9"><br><br><br>
+          <section id="top" class="full svelte-1ykiyx9">
             <img class="background parallax-layer svelte-1ykiyx9" src="assets/image/grid.svg">
             <figure class="carousel stack parallax-layer svelte-1ykiyx9">
               <span class="svelte-1ykiyx9">
@@ -177,91 +178,270 @@
               <img src="assets/test/nekogame.png" width="420" class="svelte-1ykiyx9">
             </figure>
           </section> 
-          <h1 class="stack parallax-layer svelte-1ykiyx9">
-              <span class="svelte-1ykiyx9 text-center" style="text-align: center">ROADMAP</span>
-            </h1>
-<section id="cd-timeline" class="cd-container">
 
-    <div class="cd-timeline-block">
-      <div class="cd-timeline-img cd-picture">
-      </div>
-
-      <div class="cd-timeline-content">
-        <h2>Q1 2022</h2>
-        <div class="timeline-content-info">
-          
-          <span class="timeline-content-info-date">
-            <i class="fa fa-calendar-o" aria-hidden="true"></i>
-             <p><span><img src="assets/image/RMcheckicon.svg" alt="icon" class="img-fluid" /></span> Building Concept</p>
-             <p><span><img src="assets/image/RMcheckicon.svg" alt="icon" class="img-fluid" /></span> Website & Token Launch</p>
-             <p><span><img src="assets/image/RMcheckicon.svg" alt="icon" class="img-fluid" /></span> Build Community </p>
-             <p><span><img src="assets/image/RMcheckicon.svg" alt="icon" class="img-fluid" /></span> Build Community </p>
-          </span>
+<!-- main collection -->
+<h1 class="stack parallax-layer svelte-1ykiyx9">
+  <span class="svelte-1ykiyx9 text-center">Gigant Collection</span>
+</h1>    
+<section id="collection" class="svelte-1ykiyx9">
+  <div class="wrapper-collection svelte-1ykiyx9">
+    <div class="image-review text-center svelte-1ykiyx9">
+      <div class="name-item">dsadsa</div>
+      <p class="descript-item">dsadsa</p>
+    </div>
+    
+    <div class="image-review-list">
+      <div class="image-review-item svelte-1ykiyx9">
+        <div class="bg-black svelte-rbkwku" onclick="handleChangeImage('item-10.png')">
+          <img src="assets/images/items/item-10.png" />
         </div>
-        <ul class="content-skills">
-   
-        </ul>
-      </div> <!-- cd-timeline-content -->
-    </div> <!-- cd-timeline-block -->
+        <p class="text-center">dsadsa</p>
+      </div>
+      <div class="image-review-item svelte-1ykiyx9">
+        <div class="bg-black">
+          <img src="assets/images/items/item-08.png" /> 
+        </div>
+        <p class="text-center">dsadsa</p> 
+      </div>
+      <div class="image-review-item svelte-1ykiyx9">
+        <div class="bg-black">
+          <img src="assets/images/items/item-09.png" />
+        </div>
+        <p class="text-center">dsadsa</p>
+      </div>
+      <div class="image-review-item svelte-1ykiyx9">
+        <div class="bg-black">
+          <img src="assets/images/items/item-10.png" />
+        </div>
+        <p class="text-center">dsadsa</p>
+      </div>
+      <div class="image-review-item svelte-1ykiyx9">
+        <div class="bg-black">
+          <img src="assets/images/items/item-08.png" />  
+        </div>
+        <p class="text-center">dsadsa</p>
+      </div>
+      <div class="image-review-item svelte-1ykiyx9">
+        <div class="bg-black">
+          <img src="assets/images/items/item-09.png" />
+        </div>
+        <p class="text-center">dsadsa</p>
+      </div>
+      <div class="image-review-item svelte-1ykiyx9">
+        <div class="bg-black">
+          <img src="assets/images/items/item-10.png" />
+        </div>
+        <p class="text-center">dsadsa</p>
+      </div>
+      <div class="image-review-item svelte-1ykiyx9">
+        <div class="bg-black">
+          <img src="assets/images/items/item-08.png" />  
+        </div>
+        <p class="text-center">dsadsa</p>
+      </div>
+      <div class="image-review-item svelte-1ykiyx9">
+        <div class="bg-black">
+          <img src="assets/images/items/item-09.png" />
+        </div>
+        <p class="text-center">dsadsa</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!--/ collection -->
 
-    <div class="cd-timeline-block">
-      <div class="cd-timeline-img cd-movie">
-      </div> <!-- cd-timeline-img -->
+<!-- main roadmap -->
+<h1 class="stack parallax-layer svelte-1ykiyx9">
+  <span class="svelte-1ykiyx9 text-center" style="text-align: center">ROADMAP</span>
+</h1>
+<div id="roadmap">
+  <section id="cd-timeline" class="cd-container parallax-layer svelte-1ykiyx9">
+  
+      <div class="cd-timeline-block parallax-layer svelte-1ykiyx9">
+        <div class="cd-timeline-img cd-picture">
+        </div>
+  
+        <div class="cd-timeline-content">
+          <h2>Q1 2022</h2>
+          <div class="timeline-content-info">
+            
+            <span class="timeline-content-info-date">
+              <i class="fa fa-calendar-o" aria-hidden="true"></i>
+               <p><span><img src="assets/image/RMcheckicon.svg" alt="icon" class="img-fluid" /></span> Building Concept</p>
+               <p><span><img src="assets/image/RMcheckicon.svg" alt="icon" class="img-fluid" /></span> Website & Token Launch</p>
+               <p><span><img src="assets/image/RMcheckicon.svg" alt="icon" class="img-fluid" /></span> Build Community </p>
+               <p><span><img src="assets/image/RMcheckicon.svg" alt="icon" class="img-fluid" /></span> Build Community </p>
+            </span>
+          </div>
+          <ul class="content-skills">
+     
+          </ul>
+        </div> <!-- cd-timeline-content -->
+      </div> <!-- cd-timeline-block -->
+  
+      <div class="cd-timeline-block parallax-layer svelte-1ykiyx9">
+        <div class="cd-timeline-img cd-movie parallax-layer svelte-1ykiyx9">
+        </div> <!-- cd-timeline-img -->
+  
+        <div class="cd-timeline-content parallax-layer svelte-1ykiyx9">
+          <h2>Q2 2022</h2>
+          <p><span><img src="assets/image/RMcheckicon.svg" alt="icon" class="img-fluid" /></span>  Airdrop Token $GNT</p>
+          <p><span><img src="assets/image/RMcheckicon.svg" alt="icon" class="img-fluid" /></span> Airdrop NFTs for 1000 Wallet </p>
+          <p><span><img src="assets/image/RMcheckicon.svg" alt="icon" class="img-fluid" /></span> IDO Token $GNT </p>
+          <p><span><img src="assets/image/RMcheckicon.svg" alt="icon" class="img-fluid" /></span>  Sale NFTs 4000 Edition OrbsGigant  </p>
+          <p><span><img src="assets/image/none.svg" alt="icon" class="img-fluid" /></span>  Listing on PancakeSwap  </p>
+          <p><span><img src="assets/image/none.svg" alt="icon" class="img-fluid" /></span>  Audit SmartContract </p>
+          <p><span><img src="assets/image/none.svg" alt="icon" class="img-fluid" /></span>  Gigant Ecosystem Building </p>
+           <p><span><img src="assets/image/none.svg" alt="icon" class="img-fluid" /></span> NFT Marketplace v.0.1 Release </p>
+          <p><span><img src="assets/image/none.svg" alt="icon" class="img-fluid" /></span>  Gigant Game v.0.1 Release </p>
+          <p><span><img src="assets/image/none.svg" alt="icon" class="img-fluid" /></span> Staking NFTs Launch</p>
+           <p><span><img src="assets/image/none.svg" alt="icon" class="img-fluid" /></span> $GNT CoinMarketcap & Coigecko Listing</p>
+          
+        </div> <!-- cd-timeline-content -->
+      </div> <!-- cd-timeline-block -->
+  
+      <div class="cd-timeline-block parallax-layer svelte-1ykiyx9">
+        <div class="cd-timeline-img cd-picture parallax-layer svelte-1ykiyx9">
+        </div> <!-- cd-timeline-img -->
+  
+        <div class="cd-timeline-content parallax-layer svelte-1ykiyx9">
+          <h2>Q3 2022</h2>
+         <p><span><img src="assets/image/RMcheckicon.svg" alt="icon" class="img-fluid" /></span>
+          </p>
+          <p><span><img src="assets/image/RMcheckicon.svg" alt="icon" class="img-fluid" /></span> Airdrop NFTs for 1000 Wallet </p>
+          <p><span><img src="assets/image/RMcheckicon.svg" alt="icon" class="img-fluid" /></span> IDO Token $GNT </p>
+          <p><span><img src="assets/image/RMcheckicon.svg" alt="icon" class="img-fluid" /></span>  Sale NFTs 4000 Edition OrbsGigant  </p>
+          <p><span><img src="assets/image/none.svg" alt="icon" class="img-fluid" /></span>  Listing on PancakeSwap  </p>
+          <p><span><img src="assets/image/none.svg" alt="icon" class="img-fluid" /></span>  Audit SmartContract </p>
+          <p><span><img src="assets/image/none.svg" alt="icon" class="img-fluid" /></span>  Gigant Ecosystem Building </p>
+           <p><span><img src="assets/image/none.svg" alt="icon" class="img-fluid" /></span> NFT Marketplace v.0.1 Release </p>
+          <p><span><img src="assets/image/none.svg" alt="icon" class="img-fluid" /></span>  Gigant Game v.0.1 Release </p>
+          <p><span><img src="assets/image/none.svg" alt="icon" class="img-fluid" /></span> Staking NFTs Launch</p>
+          
+        </div> <!-- cd-timeline-content -->
+      </div> <!-- cd-timeline-block -->
+  
+      <div class="cd-timeline-block parallax-layer svelte-1ykiyx9">
+        <div class="cd-timeline-img cd-location parallax-layer svelte-1ykiyx9">
+        </div> <!-- cd-timeline-img -->
+  
+        <div class="cd-timeline-content parallax-layer svelte-1ykiyx9">
+          <h2>Q4</h2>
+           <p><span><img src="assets/image/RMcheckicon.svg" alt="icon" class="img-fluid" /></span> Airdrop NFTs for 1000 Wallet </p>
+          <p><span><img src="assets/image/RMcheckicon.svg" alt="icon" class="img-fluid" /></span> IDO Token $GNT </p>
+          <p><span><img src="assets/image/RMcheckicon.svg" alt="icon" class="img-fluid" /></span>  Sale NFTs 4000 Edition OrbsGigant  </p>
+          <p><span><img src="assets/image/none.svg" alt="icon" class="img-fluid" /></span>  Listing on PancakeSwap  </p>
+          <p><span><img src="assets/image/none.svg" alt="icon" class="img-fluid" /></span>  Audit SmartContract </p>
+        </div> <!-- cd-timeline-content -->
+      </div> <!-- cd-timeline-block -->
+    </section> <!-- cd-timeline -->
+</div>
+<!--/ roadmap -->
 
-      <div class="cd-timeline-content">
-        <h2>Q2 2022</h2>
-        <p><span><img src="assets/image/RMcheckicon.svg" alt="icon" class="img-fluid" /></span>  Airdrop Token $GNT</p>
-        <p><span><img src="assets/image/RMcheckicon.svg" alt="icon" class="img-fluid" /></span> Airdrop NFTs for 1000 Wallet </p>
-        <p><span><img src="assets/image/RMcheckicon.svg" alt="icon" class="img-fluid" /></span> IDO Token $GNT </p>
-        <p><span><img src="assets/image/RMcheckicon.svg" alt="icon" class="img-fluid" /></span>  Sale NFTs 4000 Edition OrbsGigant  </p>
-        <p><span><img src="assets/image/none.svg" alt="icon" class="img-fluid" /></span>  Listing on PancakeSwap  </p>
-        <p><span><img src="assets/image/none.svg" alt="icon" class="img-fluid" /></span>  Audit SmartContract </p>
-        <p><span><img src="assets/image/none.svg" alt="icon" class="img-fluid" /></span>  Gigant Ecosystem Building </p>
-         <p><span><img src="assets/image/none.svg" alt="icon" class="img-fluid" /></span> NFT Marketplace v.0.1 Release </p>
-        <p><span><img src="assets/image/none.svg" alt="icon" class="img-fluid" /></span>  Gigant Game v.0.1 Release </p>
-        <p><span><img src="assets/image/none.svg" alt="icon" class="img-fluid" /></span> Staking NFTs Launch</p>
-         <p><span><img src="assets/image/none.svg" alt="icon" class="img-fluid" /></span> $GNT CoinMarketcap & Coigecko Listing</p>
-        
-      </div> <!-- cd-timeline-content -->
-    </div> <!-- cd-timeline-block -->
+<!-- main tokenomics -->
+<h1 class="stack parallax-layer svelte-1ykiyx9">
+  <span class="parallax-layer svelte-1ykiyx9 text-center">TOKENOMICS</span>
+</h1>
+<section id="tokenomics" class="parallax-layer svelte-1ykiyx9">
+  <img class="background parallax-layer svelte-1ykiyx9" src="assets/image/grid.svg">
+  <div class="wrapper-tokenomics svelte-1ykiyx9">
+    <div class="tokenomics-image">
+      <img src="assets/image/tokenomik.png" />
+    </div>
+    <div class="tokenomics-list">
+      <div class="tokenomics-item">
+        <div class="tokenomics-item-percentace item-square-red mr-2"></div>
+        <span class="mr-3">10%</span>
+        <span>lorem ipsum</span>
+      </div>
+      <div class="tokenomics-item">
+        <div class="tokenomics-item-percentace item-square-green mr-2"></div>
+        <span class="mr-3">10%</span>
+        <span>lorem ipsum</span>
+      </div>
+      <div class="tokenomics-item">
+        <div class="tokenomics-item-percentace item-square-green mr-2"></div>
+        <span class="mr-3">10%</span>
+        <span>lorem ipsum</span>
+      </div><div class="tokenomics-item">
+        <div class="tokenomics-item-percentace item-square-green mr-2"></div>
+        <span class="mr-3">10%</span>
+        <span>lorem ipsum</span>
+      </div><div class="tokenomics-item">
+        <div class="tokenomics-item-percentace item-square-green mr-2"></div>
+        <span class="mr-3">10%</span>
+        <span>lorem ipsum</span>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /tokenomics -->
 
-    <div class="cd-timeline-block">
-      <div class="cd-timeline-img cd-picture">
-      </div> <!-- cd-timeline-img -->
+<!-- main team -->
+<h1 class="stack parallax-layer svelte-1ykiyx9">
+  <span class="svelte-1ykiyx9 text-center">OUR TEAM</span>
+</h1>
+<section id="team" class="svelte-1ykiyx9">
+  <div class="wrapper-team svelte-1ykiyx9">
+    <div class="item-team">
+      <img src="assets/images/items/11.png" />
+      <div class="name text-center">Lorem</div>
+      <div class="role text-center">Lorem</div>
+    </div>
+    <div class="item-team">
+      <img src="assets/images/items/11.png" />
+      <div class="name text-center">Lorem</div>
+      <div class="role text-center">Lorem</div>
+    </div>
+    <div class="item-team">
+      <img src="assets/images/items/11.png" />
+      <div class="name text-center">Lorem</div>
+      <div class="role text-center">Lorem</div>
+    </div>
+    <div class="item-team">
+      <img src="assets/images/items/11.png" />
+      <div class="name text-center">Lorem</div>
+      <div class="role text-center">Lorem</div>
+    </div>
+    <div class="item-team">
+      <img src="assets/images/items/11.png" />
+      <div class="name text-center">Lorem</div>
+      <div class="role text-center">Lorem</div>
+    </div>
+  </div>
+</section>
+<!--/ team -->
 
-      <div class="cd-timeline-content">
-        <h2>Q3 2022</h2>
-       <p><span><img src="assets/image/RMcheckicon.svg" alt="icon" class="img-fluid" /></span>
-        </p>
-        <p><span><img src="assets/image/RMcheckicon.svg" alt="icon" class="img-fluid" /></span> Airdrop NFTs for 1000 Wallet </p>
-        <p><span><img src="assets/image/RMcheckicon.svg" alt="icon" class="img-fluid" /></span> IDO Token $GNT </p>
-        <p><span><img src="assets/image/RMcheckicon.svg" alt="icon" class="img-fluid" /></span>  Sale NFTs 4000 Edition OrbsGigant  </p>
-        <p><span><img src="assets/image/none.svg" alt="icon" class="img-fluid" /></span>  Listing on PancakeSwap  </p>
-        <p><span><img src="assets/image/none.svg" alt="icon" class="img-fluid" /></span>  Audit SmartContract </p>
-        <p><span><img src="assets/image/none.svg" alt="icon" class="img-fluid" /></span>  Gigant Ecosystem Building </p>
-         <p><span><img src="assets/image/none.svg" alt="icon" class="img-fluid" /></span> NFT Marketplace v.0.1 Release </p>
-        <p><span><img src="assets/image/none.svg" alt="icon" class="img-fluid" /></span>  Gigant Game v.0.1 Release </p>
-        <p><span><img src="assets/image/none.svg" alt="icon" class="img-fluid" /></span> Staking NFTs Launch</p>
-        
-      </div> <!-- cd-timeline-content -->
-    </div> <!-- cd-timeline-block -->
-
-    <div class="cd-timeline-block">
-      <div class="cd-timeline-img cd-location">
-      </div> <!-- cd-timeline-img -->
-
-      <div class="cd-timeline-content">
-        <h2>Q4</h2>
-         <p><span><img src="assets/image/RMcheckicon.svg" alt="icon" class="img-fluid" /></span> Airdrop NFTs for 1000 Wallet </p>
-        <p><span><img src="assets/image/RMcheckicon.svg" alt="icon" class="img-fluid" /></span> IDO Token $GNT </p>
-        <p><span><img src="assets/image/RMcheckicon.svg" alt="icon" class="img-fluid" /></span>  Sale NFTs 4000 Edition OrbsGigant  </p>
-        <p><span><img src="assets/image/none.svg" alt="icon" class="img-fluid" /></span>  Listing on PancakeSwap  </p>
-        <p><span><img src="assets/image/none.svg" alt="icon" class="img-fluid" /></span>  Audit SmartContract </p>
-      
-      </div> <!-- cd-timeline-content -->
-    </div> <!-- cd-timeline-block -->
-
-  </section> <!-- cd-timeline -->
+<!-- main partner -->
+<h1 class="stack parallax-layer svelte-1ykiyx9">
+  <span class="svelte-1ykiyx9 text-center">OUR PARTNERS</span>
+</h1>
+<section id="partner">
+  <div class="wrapper-partner">
+    <div class="image-partner-size">
+      <img src="assets/images/partners-animoca.svg" />
+    </div>
+    <div class="image-partner-size">
+      <img src="assets/images/partners-animoca.svg" />
+    </div>
+    <div class="image-partner-size">
+      <img src="assets/images/partners-animoca.svg" />
+    </div>
+    <div class="image-partner-size">
+      <img src="assets/images/partners-animoca.svg" />
+    </div>
+    <div class="image-partner-size">
+      <img src="assets/images/partners-animoca.svg" />
+    </div>
+    <div class="image-partner-size">
+      <img src="assets/images/partners-animoca.svg" />
+    </div>
+    <div class="image-partner-size">
+      <img src="assets/images/partners-animoca.svg" />
+    </div>
+  </div>
+</section>
+<!--/ partner -->
 
           <footer class="column row-desktop svelte-1ykiyx9">
             <div class="socials row centered svelte-1ykiyx9">
@@ -286,7 +466,6 @@
           </footer>
         </main>
       </div>
-    
   </body>
 
 
